@@ -24,15 +24,23 @@ Online shoppers who want to manage their cart items easily and efficiently.
 
 ## OOP Concepts Used
 
-- Abstraction: Using classes such as Product and ShoppingCart to hide internal implementation and provide only necessary functionalities
-- Inheritance: A base Product class can be extended by other product types if needed.
-- Polymorphism: Methods can perform different operations depending on the object used.
-- Exception Handling: Used to handle errors such as invalid input, incorrect quantity, or operations on an empty cart.
-- Collections / Threads: Java ArrayList is used to store and manage cart items dynamically.
+- **Abstraction**: Using classes like Product and Cart  
+- **Encapsulation**: Data hiding using private variables and methods  
+- **Polymorphism**: Methods performing different operations  
+- **Exception Handling**: Handling invalid inputs and errors  
+- **Collections**: Java ArrayList for dynamic storage  
 
 ## Proposed Architecture Description
-The system consists of several classes: Product, ShoppingCart, and OrderManager.
-The Product class stores product information such as product ID, name, and price. The ShoppingCart class manages operations like adding, removing, and updating items in the cart. The OrderManager class calculates the total cost of the items. These classes interact together to create a simple and organized shopping cart management system.
+
+The system consists of the following classes:
+
+- **Product** → Stores product details (ID, name, price)  
+- **Cart** → Manages add, remove, update, and display operations  
+- **User** → Represents the customer and their cart  
+- **Shop** → Contains product list and search functionality  
+- **OnlineShoppingApp** → Main class to run the application
+
+- These classes work together to simulate a basic e-commerce workflow.
 
 ## How to Run
 1) Install Java JDK on your system.
