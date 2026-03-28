@@ -21,7 +21,6 @@ Online shoppers who want to manage their cart items easily and efficiently.
 3) Remove items from the cart
 4) Display items in the cart
 5) Calculate total price
-6) 
 
 ## OOP Concepts Used
 
