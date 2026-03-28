@@ -44,10 +44,10 @@ The system consists of the following classes:
 
 ## How to Run
 
-1. Install Java JDK on your system  
-2. Open the project in an IDE (Eclipse, IntelliJ IDEA, or VS Code)  
-3. Compile the Java files  
-4. Run `OnlineShoppingApp.java` to start the application  
+1. Install Java JDK on your system . 
+2. Open the project in an IDE (Eclipse, IntelliJ IDEA, or VS Code) .
+3. Compile the Java files . 
+4. Run `OnlineShoppingApp.java` to start the application .
 
 
 ## Git Discipline Notes
