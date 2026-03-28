@@ -24,11 +24,11 @@ Online shoppers who want to manage their cart items easily and efficiently.
 
 ## OOP Concepts Used
 
-- **Abstraction**: Using classes like Product and Cart  
-- **Encapsulation**: Data hiding using private variables and methods  
-- **Polymorphism**: Methods performing different operations  
-- **Exception Handling**: Handling invalid inputs and errors  
-- **Collections**: Java ArrayList for dynamic storage  
+- **Abstraction**: Using classes like Product and Cart. 
+- **Encapsulation**: Data hiding using private variables and methods.  
+- **Polymorphism**: Methods performing different operations.  
+- **Exception Handling**: Handling invalid inputs and errors. 
+- **Collections**: Java ArrayList for dynamic storage.  
 
 ## Proposed Architecture Description
 
