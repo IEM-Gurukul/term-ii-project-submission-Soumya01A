@@ -1,1 +1,53 @@
+@startuml
+class Product {
+  - id : int
+  - name : String
+  - price : double
+  + display() : void
+}
 
+class CartItem {
+  - product : Product
+  - quantity : int
+  + getSubtotal() : double
+}
+
+class ShoppingCart {
+  - items : ArrayList<CartItem>
+  + addItem(product, qty)
+  + removeItem(productId)
+  + updateItem(productId, qty)
+  + calculateTotal() : double
+  + displayCart()
+}
+
+class User {
+  - userId : int
+  - name : String
+}
+
+class Shop {
+  - productList : ArrayList<Product>
+  + searchProduct(id) : Product
+  + displayProducts()
+}
+
+class OrderManager {
+  + processOrder(cart : ShoppingCart)
+}
+
+class OnlineShoppingApp {
+  + main()
+}
+
+' Relationships
+Product "1" --> "many" CartItem : used in
+CartItem --> ShoppingCart : added to
+ShoppingCart --> OrderManager : used by
+User --> ShoppingCart : owns
+Shop --> Product : contains
+OnlineShoppingApp --> Shop
+OnlineShoppingApp --> User
+OnlineShoppingApp --> ShoppingCart
+OnlineShoppingApp --> OrderManager
+@enduml
